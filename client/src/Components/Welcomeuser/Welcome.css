@@ -1,0 +1,45 @@
+.home__welcomeuser {
+    position: fixed;
+    top: 35vh;
+    left: 35vw;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  .home__welcomeuser > h1 {
+    color: #5861ae;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+  .home__welcomeuser > h2 {
+    letter-spacing: 1.2px;
+  }
+  .home__welcomeuser__buttons {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__welcomeuser__buttons > a > button {
+    width: 130px;
+    margin-bottom: 20px;
+    height: 33px;
+    border: 1px solid #5861ae;
+    border-radius: 4px;
+    color: #5861ae;
+    /* font-size: 1.5rem; */
+    /* letter-spacing: 1.2px; */
+    text-transform: uppercase;
+    cursor: pointer;
+    /* transition: 0.3s; */
+  }
+
+  .home__welcomeuser__buttons > a > button:hover{
+    background-color:  #5861ae;
+    color:white
+  }

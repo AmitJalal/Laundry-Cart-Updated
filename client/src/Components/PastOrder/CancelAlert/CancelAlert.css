@@ -1,0 +1,61 @@
+.whole{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.CancelAlert-div{
+    width: 25vw;
+    height: 30vh;
+    
+    margin:15em auto;
+    background-color: #FEFFFF;
+}
+.Alert-head{
+    
+    background-color: #5861AE;
+    color: #FEFFFF;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.Alert-msg{
+    height: 6vh;
+    width: 80%;
+  margin: 1em auto;
+  
+}
+.traingle{
+   width: 10%;
+    color: red;
+    margin: 25px 20px;
+  
+}
+.remaining-part{
+   
+    display: flex;
+    margin: 1.5em  auto;
+
+
+}
+.i{
+   
+color: red;
+   
+} 
+.proceed{
+    width: 10em;
+    margin: auto;
+}
+.alert-proceed{
+    text-align: center;
+}
+.proceed-button{
+ background-color: #5861AE;
+ border: none;
+ color:#FEFFFF;
+ padding: 10px 25px;
+ border-radius: 5px;
+}

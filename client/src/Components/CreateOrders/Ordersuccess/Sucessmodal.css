@@ -1,0 +1,66 @@
+.successmodal__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+.successmodal__messagediv {
+  width: 466px;
+  height: 504px;
+  background-color: white;
+}
+.success__tick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin-top: 62px;
+  margin-left: 173px;
+  border-radius: 50%;
+  background-color: #5861ae60;
+}
+.sucess__message {
+  width: 297px;
+  height: 66px;
+  margin-left: 84.5px;
+  margin-top: 28px;
+  text-align: center;
+}
+.sucess__message > h3 {
+  font-size: 24px;
+  color: #0a1f44;
+}
+.sucess__check {
+  width: 263px;
+  height: 45px;
+  margin-left: 101.5px;
+  margin-top: 24px;
+  text-align: center;
+}
+.sucess__check > p {
+  font-size: 17px;
+  color: #0a1f44;
+}
+.sucess__redirectbutton {
+  width: 235px;
+  height: 44px;
+  margin-top: 50px;
+  /* margin-left: 10px; */
+  border-radius: 22px;
+  background-color: #5861ae;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+
+.sucess__redirectbutton:hover{
+  background-color: #3944a7;
+}

@@ -1,0 +1,25 @@
+.sigin-btn{
+    background: white;
+    border: 2px solid #4552c1;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .sigin-btn:hover{
+    background: #4552c1;;
+    border: 2px solid #4552c1;
+    color:white;
+  }
+
+.register-btn{
+    background: #4552c1;
+    border: 2px solid #4552c1;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    padding:5px;
+  }
+  .register-btn:hover{
+    background: #182179;
+    border: 2px solid #101a6e;
+  }
